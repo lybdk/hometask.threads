@@ -17,7 +17,7 @@ public class Client {
         this.operators = operators;
     }
 
-    //getters and setters
+    //getters and setters.
     public String getName() {
         return name;
     }

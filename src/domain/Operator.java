@@ -11,7 +11,7 @@ public class Operator implements Runnable {
     Object someClient;
     LinkedBlockingQueue<Object> clients;
 
-    //Constructor
+    //Constructor.
     public Operator(String name, String id, LinkedBlockingQueue<Object> clients) {
         this.name = name;
         this.id = Integer.parseInt(id);

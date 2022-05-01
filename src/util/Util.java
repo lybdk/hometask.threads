@@ -11,7 +11,7 @@ public class Util {
     private static final int RIGHT_BORDER = 8000;
     private static final Random RAND = new Random();
 
-    //private constructor
+    //private constructor.
     private Util() {
     }
 

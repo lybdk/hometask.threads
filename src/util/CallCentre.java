@@ -9,7 +9,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.Executors;
 
 public class CallCentre {
-    //path to property file with information about operators
+    //path to property file with information about operators.
     private static final String PATH = "resources/OperatorInfo.properties";
 
     //private constructor

@@ -9,7 +9,7 @@ public class Calls implements Runnable {
     LinkedBlockingQueue<Object> clients;
     private final int countOfClients;
 
-    //path to property file with information about operators
+    //path to property file with information about operators.
     private static final String PATH = "resources/ClientInfo.properties";
 
     public Calls(LinkedBlockingQueue<Object> clients, int countOfClients) {
